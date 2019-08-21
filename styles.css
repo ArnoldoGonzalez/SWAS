@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.bigRedText {
+    color: #FF003F;
+    font-size: 150px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1;
+}
+
+.blueParagraphText {
+    color: #40E9FF;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.whiteParagraphText {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+    line-height: 1;
+}
+
+.sectionOne {
+    background:linear-gradient(rgba(0,0,128,0.5), rgba(0,0,138,0.5)), url("images/salinasFields.jpg") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.sectionOne h1 {
+    padding-right: 40%;
+}
+
+.sectionOne p {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 25%;
+}
+
+.sectionOneText {
+    text-align: left;
+    padding: 5%;
+    color: white;
+    border: 10px solid #B75FE6;
+    /* purple #B75FE6 */    
+}
+
+.sectionTwo {
+    background:linear-gradient(rgba(0,0,138,0.5), rgba(0,0,148,0.5)), url("images/day3bots.jpg") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sectionTwo h1 {
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-bottom: 7%;
+}
+
+.sectionTwo p {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%; 
+}
+
+.rectangle {
+    height: 15px;
+    width: 100px;
+    background-color: #B75FE6;
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+
+.sectionThree {
+    background:linear-gradient(rgba(0,0,148,0.5), rgba(0,0,158,0.6)), url("images/day3Rebels.jpg") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sectionThree .bigRedText {
+    font-size: 85px;
+}
+
+.sectionThree .rectangle {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.sectionThree .right {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sectionThree h2 {
+    font-size: 28px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sectionThree li {
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 1.5;
+    font-style: normal;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.left ul {
+    /* text-align: center; */
+    margin-bottom: 15%;
+}
+
+.left {
+    margin-top: 11%;
+    margin-left: 5%;
+}
+
+.left h1 {
+    font-size: 75px;
+    letter-spacing: -1px;
+}
+
+.left p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+}
+
+.right {
+    margin-right: 5%; 
+}
+
+.right p {
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-right: 15px;
+}
+
+.grayText {
+    color: #A9A9A9;
+}
+
+.sectionFour {
+    background:linear-gradient(rgba(0,0,158,0.6), rgba(0,0,168,0.6)), url("images/day4chandelier.jpg") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 28%;
+    padding-bottom: 5%;
+}
+
+.sectionFour p {
+    font-size: 20px;
+    line-height: 200%;
+    padding-top: 5%;
+}
+
+.sectionFive {
+    background:linear-gradient(rgba(0,0,168,0.7), rgba(0,0,178,0.7)), url("images/day10camera.JPG") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1.5%;
+}
+
+.sectionFive h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sectionFive h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.sectionFive img {
+    border: 10px solid black;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.imageBox {
+    text-align: center;
+}
+
+.boxOne {
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.boxOne img {
+    width: 33.002%;
+    height: auto;
+}
+
+.boxOne p {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 13px;
+    line-height: 1.25;
+}
+
+.boxTwo {
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.boxTwo img {
+    width: 33.002%;
+    height: auto;
+}
+
+.boxTwo p {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 13px;
+    line-height: 1.25;
+}
+
+.boxThree {
+    width: 33%;
+}
+
+.boxThree img {
+    width: 50%;
+    height: auto;
+}
+
+.boxThree p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 13px;
+    line-height: 1.25;
+}
+
+.boxFour {
+    width: 33%;
+}
+
+.boxFour img {
+    width: 50%;
+    height: auto;
+}
+
+.boxFour p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 13px;
+    line-height: 1.25;
+}
+
+.boxFive {
+    width: 33%;
+}
+
+.boxFive img {
+    width: 50%;
+    height: auto;
+}
+
+.boxFive p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 13px;
+    line-height: 1.25;
+}
+
+.sectionSix {
+    background:linear-gradient(rgba(0,0,178,0.7), rgba(0,0,188,0.7)), url("images/day10ICE.jpg") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionSix h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sectionSix h2 {
+    text-align: center;
+}
+
+.sectionSix p {
+    text-align: center;
+}
+
+.sectionSix img {
+    filter: grayscale(100%);
+}
+
+.topHalf {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.bottomHalf {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+}
+
+#image1 {
+    background-image: url(images/theTeam/Jane.jpg);
+    display: inline-block;
+}
+
+#image2 {
+    background-image: url(images/theTeam/Alex.jpg);
+    display: inline-block;
+}
+
+#image3 {
+    background-image: url(images/theTeam/Marcus.jpg);
+    display: inline-block;
+}
+
+#image4 {
+    background-image: url(images/theTeam/Gabe.jpg);
+    display: inline-block;
+}
+
+#image5 {
+    background-image: url(images/theTeam/Andres.jpg);
+    display: inline-block;
+    filter: grayscale(100%);
+    background-position: center top;
+}
+
+.sectionSeven {
+    background:linear-gradient(rgba(0,0,188,0.7), rgba(0,0,200,0.7)), url("images/foxTheater.JPG") no-repeat center top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.sectionSeven h1,
+.sectionSeven h2 {
+    line-height: 2;
+}
+
+.sectionSeven h1 {
+    padding-top: 5%;
+}
+
+#contactName {
+    font-size: 6em;
+}
+
+#contactEmail {
+    font-size: 6em;
+}
+
+#contactNumber {
+    font-size: 6em;
+}
